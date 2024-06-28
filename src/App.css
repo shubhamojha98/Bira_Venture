@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+/* Footer */
+.foo-1,.foo-2 {
+  font-size:0.9em;
+}
+
+.foo-1 a,.foo-3 a {
+  margin-bottom:15px;
+  text-decoration:none;
+  color:#ddd;
+  transition:var(--smoothTrans);
+} .foo-1 a:hover,.foo-3 a:hover {
+  cursor:pointer;
+  color:#fff !important;
+  text-decoration:underline !important;
+}
+
+@media (max-width: 992px) {
+  .row-card {
+      text-align: left !important;
+  }
+}
